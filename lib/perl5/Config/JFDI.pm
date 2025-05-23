@@ -7,8 +7,8 @@ BEGIN {
 use warnings;
 use strict;
 
-
-use Any::Moose;
+use Moo;
+use Types::Standard qw(Str HashRef Bool);
 
 use Config::JFDI::Source::Loader;
 use Config::JFDI::Carp;
